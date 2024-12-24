@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiki Healthcare Family Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+   <div class="background-image">
+
+    <header>
+        <h1>Kiki Healthcare &amp; Assistant</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#dashboard">User Dashboard</a></li>
+                <li><a href="#doctor-portal">Doctor Portal</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#settings">Settings</a></li>
+                <li><a href="#support">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Homepage -->
+<section id="home" class="section">
+    <div class="container">
+        <h2>Empowering Healthcare with AI Tech</h2>
+        <p>Your personalized healthcare companion for monitoring, diet control, reminders, and more.</p>
+        <button onclick="getStarted()">Explore Features</button>
+    </div>
+</section>
+                
+
+    <!-- User Dashboard -->
+    <section id="dashboard" class="section">
+        <div class="container">
+            <h2>User Dashboard</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Healthcare Monitoring</h3>
+                    <p>Track your health metrics effectively.</p>
+                </div>
+                <div class="feature">
+                    <h3>Diet Control</h3>
+                    <p>Personalized diet suggestions based on your health data.</p>
+                </div>
+                <div class="feature">
+                    <h3>Emergency Button</h3>
+                    <p>Send alarms during emergencies.</p>
+                </div>
+                <div class="feature">
+                    <h3>Medical Reminders</h3>
+                    <p>Stay punctual with medication alarms.</p>
+                </div>
+                <div class="feature">
+                    <h3>Communication</h3>
+                    <p>Connect seamlessly with doctors and patients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctor Portal -->
+    <section id="doctor-portal" class="section">
+        <div class="container">
+            <h2>Doctor Portal</h2>
+            <p>Provide healthcare professionals with necessary access to patient data and tools for communication.</p>
+        </div>
+    </section>
+
+    <!-- Healthcare Schedule -->
+    <section id="schedule" class="section">
+        <div class="container">
+            <h2>Healthcare Schedule</h2>
+            <p>Organize your healthcare tasks efficiently.</p>
+        </div>
+    </section>
+
+    <!-- Settings -->
+    <section id="settings" class="section">
+        <div class="container">
+            <h2>Settings</h2>
+            <p>Customize your preferences, including language options (Urdu and English).</p>
+        </div>
+    </section>
+
+    <!-- Help/Support -->
+    <section id="support" class="section">
+        <div class="container">
+            <h2>Help &amp; Support</h2>
+            <p>Find answers to common questions or contact support for assistance.</p>
+        </div>
+    </section>
+
+    <!-- Chatbot -->
+    <div class="chatbot">
+        <div class="chatbot-header">Kiki - Your AI Healthcare Assistant</div>
+        <div class="chatbot-messages" id="chatbotMessages"></div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbotInput" placeholder="Hello, I'm Kiki. I care. Ask me anything...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Espy - All Rights Reserved</p>
+        </div>
+    <script src="script.js"></script>
+
+</footer>
+</body>
+</html>

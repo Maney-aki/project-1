@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Healthcare Dashboard</title>
+    <link rel="stylesheet" href="./style/dashboard.css">
+</head>
+<body>
+    <!-- Dashboard Container -->
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h1>Healthcare Dashboard</h1>
+            <nav>
+                <a href="#overview">Personal Overview</a>
+                <a href="#reminders">Medical Reminders</a>
+                <a href="#monitoring">Monitoring Data</a>
+                <a href="#diet-plan">Diet Plan</a>
+                <a href="#emergency-kit">Emergency Kit</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <header class="content-header">
+                <h2>Welcome Back!</h2>
+                <p>Track your health and stay on top of your medical needs.</p>
+            </header>
+
+            <!-- Sections -->
+            <section id="overview" class="section">
+                <h3>Personal Healthcare Overview</h3>
+                <p>Your latest health stats and updates go here.</p>
+                <div class="card">
+                    <h4>Steps Taken</h4>
+                    <p>5,000 steps today</p>
+                </div>
+                <div class="card">
+                    <h4>Calories Burned</h4>
+                    <p>300 kcal</p>
+                </div>
+            </section>
+
+            <section id="reminders" class="section">
+                <h3>Medical Reminders</h3>
+                <ul>
+                    <li>Take Vitamin D - 8:00 AM</li>
+                    <li>Heart Medicine - 1:00 PM</li>
+                    <li>Evening Walk - 6:00 PM</li>
+                </ul>
+            </section>
+
+            <section id="monitoring" class="section">
+                <h3>Healthcare Monitoring Data</h3>
+                <p>Monitor your vitals like blood pressure, heart rate, and more.</p>
+                <div class="card">
+                    <h4>Blood Pressure</h4>
+                    <p>120/80 mmHg</p>
+                </div>
+                <div class="card">
+                    <h4>Heart Rate</h4>
+                    <p>72 BPM</p>
+                </div>
+            </section>
+
+            <section id="diet-plan" class="section">
+                <h3>Diet Plan Access</h3>
+                <p>Your personalized diet recommendations.</p>
+                <div class="card">
+                    <h4>Breakfast</h4>
+                    <p>Oatmeal and fruits</p>
+                </div>
+                <div class="card">
+                    <h4>Lunch</h4>
+                    <p>Grilled chicken with vegetables</p>
+                </div>
+            </section>
+
+            <section id="emergency-kit" class="section">
+                <h3>Emergency Kit Information</h3>
+                <p>Checklist for your emergency medical kit.</p>
+                <ul>
+                    <li>First Aid Kit</li>
+                    <li>Essential Medications</li>
+                    <li>Contact Numbers</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
+

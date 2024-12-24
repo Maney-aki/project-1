@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doctor Access Portal</title>
+    <link rel="stylesheet" href="./style/doctorportal.css">
+
+</head>
+<body>
+    <!-- Main Container -->
+    <aside class="sidebar">
+        <div class="profile-section">
+            <img src="doctor-profile.jpg" alt="Doctor Profile" class="profile-pic">
+            <h2>Dr. Sarah Lee</h2>
+            <p>Cardiologist</p>
+        </div>
+        <nav>
+            <div class="nav-item" data-tooltip="Dashboard">
+                <i class="icon fa fa-home"></i>
+                <a href="#dashboard" class="nav-link">Dashboard</a>
+            </div>
+            <div class="nav-item" data-tooltip="Patients">
+                <i class="icon fa fa-users"></i>
+                <a href="#patients" class="nav-link">Patients</a>
+            </div>
+            <div class="nav-item" data-tooltip="Emergency Alerts">
+                <i class="icon fa fa-bell"></i>
+                <a href="#alerts" class="nav-link">Alerts</a>
+            </div>
+            <div class="nav-item" data-tooltip="Video/Audio Calls">
+                <i class="icon fa fa-video"></i>
+                <a href="#calls" class="nav-link">Calls</a>
+            </div>
+            <div class="nav-item" data-tooltip="Devices">
+                <i class="icon fa fa-watch"></i>
+                <a href="#devices" class="nav-link">Devices</a>
+            </div>
+            <div class="nav-item" data-tooltip="Prescriptions">
+                <i class="icon fa fa-file-prescription"></i>
+                <a href="#prescriptions" class="nav-link">Prescriptions</a>
+            </div>
+            <div class="nav-item" data-tooltip="Analytics">
+                <i class="icon fa fa-chart-line"></i>
+                <a href="#analytics" class="nav-link">Analytics</a>
+            </div>
+            <div class="nav-item" data-tooltip="Settings">
+                <i class="icon fa fa-cog"></i>
+                <a href="#settings" class="nav-link">Settings</a>
+            </div>
+        </nav>
+        <div class="toggle-btn" id="toggle-btn">
+            <i class="fa fa-chevron-left"></i>
+        </div>
+    </aside>
+    
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header Section -->
+            <header class="header">
+                <h2>Empowering Healthcare with AI</h2>
+                <p>Access advanced tools to manage patient care efficiently.</p>
+            </header>
+
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="section">
+                <h3>Dashboard Overview</h3>
+                <div class="dashboard-cards">
+                    <div class="card">
+                        <h4>Total Patients</h4>
+                        <p>42</p>
+                    </div>
+                    <div class="card">
+                        <h4>Active Alerts</h4>
+                        <p>5</p>
+                    </div>
+                    <div class="card">
+                        <h4>Completed Calls</h4>
+                        <p>18</p>
+                    </div>
+                    <div class="card">
+                        <h4>Devices Synced</h4>
+                        <p>12</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Patients Section -->
+            <section id="patients" class="section">
+                <h3>Patients</h3>
+                <table class="patients-table">
+                    <thead>
+                        <tr>
+                            <th>Patient Name</th>
+                            <th>Age</th>
+                            <th>Condition</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>45</td>
+                            <td>Hypertension</td>
+                            <td>Stable</td>
+                            <td><button class="view-btn">View</button></td>
+                        </tr>
+                        <tr>
+                            <td>Jane Smith</td>
+                            <td>30</td>
+                            <td>Diabetes</td>
+                            <td>Critical</td>
+                            <td><button class="view-btn">View</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Emergency Alerts -->
+            <section id="alerts" class="section">
+                <h3>Emergency Alerts</h3>
+                <div class="alert">
+                    <p><strong>Alert:</strong> Patient Jane Smith requires immediate attention!</p>
+                </div>
+            </section>
+
+            <!-- AI Analytics -->
+            <section id="analytics" class="section">
+                <h3>AI-Powered Analytics</h3>
+                <p>Visualize trends in patient health and service performance.</p>
+                <div class="analytics-visual">
+                    <canvas id="analytics-chart"></canvas>
+                </div>
+            </section>
+
+            <!-- Settings -->
+            <section id="settings" class="section">
+                <h3>Settings</h3>
+                <p>Configure your preferences and system settings.</p>
+                <form>
+                    <label for="theme-select">Theme:</label>
+                    <select id="theme-select">
+                        <option value="dark">Dark</option>
+                        <option value="light">Light</option>
+                    </select>
+                    <button class="apply-btn">Apply</button>
+                </form>
+            </section>
+        </main>
+    </div>
+<script src="doctorportal.js"></script>
+</body>
+</html>
+
+
+   
